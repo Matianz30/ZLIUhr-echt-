@@ -12,3 +12,14 @@ setInterval(() => {
   min.style.transform = `rotate(${minuteDeg}deg)`;
   hour.style.transform = `rotate(${hourDeg}deg)`;
 }, 1000);
+
+document.querySelector(".outer-clock-face").addEventListener("mouseover", () => {
+
+  document.querySelector("body").style.backgroundColor = "white"
+});
+
+document.querySelector(".outer-clock-face").addEventListener("mouseout", () => {
+
+  document.querySelector("body").style.backgroundColor = "rgb(225, 195, 156)"
+});
+

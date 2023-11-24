@@ -20,8 +20,9 @@
     border-radius: 50%;
     border: 5px solid gray;
     position: relative;
-    transition: transform .8s;
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+    transition: transform .8s ; /* bestimmt wie langedie animation ist wenn man hovert */
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.4); /* Macht denn Schatten rund um der Uhr */
+
 }
 .hand
 {
@@ -72,6 +73,78 @@
 }
 
 
+
+
 .outer-clock-face:hover{
-    transform: scale(1.08);
+    transform: scale(1.08); /* bestimmt die grösse nachdem hover*/
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    transition: all 0.5s ease-in-out;
+    background-color: rgb(225, 195, 156);
+}
+
+
