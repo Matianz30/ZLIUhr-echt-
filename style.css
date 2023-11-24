@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clock{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.outer-clock-face{
+    background-image: url(./images/169-1694457_clock-face-printable-printable-paper-wall-clock-dial.png);
+    background-size: cover;
+    height: 40vw;
+    width: 40vw;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    border: 5px solid gray;
+    position: relative;
+    transition: transform .8s;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+}
+.hand
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 5px;
+    width: 40%;
+    background-color: black;
+    border-radius: 30%;
+    transform: rotate(-90deg);
+    transform-origin: left;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: burlywood;
+}
+
+.min-hand
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 5px;
+    width: 30%;
+    background-color: black;
+    border-radius: 30%;
+    transform: rotate(-90deg);
+    transform-origin: left;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: burlywood;
+}
+
+.hour-hand
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 5px;
+    width: 20%;
+    background-color: black;
+    border-radius: 20%;
+    transform: rotate(-90deg);
+    transform-origin: left;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: burlywood;
+}
+
+
+.outer-clock-face:hover{
+    transform: scale(1.08);
+}
