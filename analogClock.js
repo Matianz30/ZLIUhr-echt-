@@ -13,6 +13,7 @@ setInterval(() => {
   hour.style.transform = `rotate(${hourDeg}deg)`;
 }, 1000);
 
+/* This part of the code makes that if you hover over the clock the background changes*/
 document.querySelector(".outer-clock-face").addEventListener("mouseover", () => {
 
   document.querySelector("body").style.backgroundColor = "white"
